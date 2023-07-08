@@ -88,7 +88,6 @@ $grey-white: #E6E6E6;
 
 .btn {
   display: block;
-  border: 2px solid $blue;
   background: $blue;
   color: white;
   padding: 16px 24px;
@@ -96,9 +95,15 @@ $grey-white: #E6E6E6;
   font-size: 14px;
   font-weight: 900;
   text-transform: uppercase;
-  border: 0;
   cursor: pointer;
+  border: 2px solid $blue;
 }
+
+.btn:hover {
+  background-color: $white;
+  color: $blue;
+}
+
 
 .border {
   border-bottom: 3px solid $blue;
@@ -182,6 +187,10 @@ $grey-white: #E6E6E6;
   display: flex;
   justify-content: space-between;
   align-items: center
+}
+
+.logo-mobile-menu {
+  display: none;
 }
 
 .menu {
@@ -354,6 +363,7 @@ $grey-white: #E6E6E6;
     margin: 48px auto 0 auto;
   }
 
+
 }
 
 
@@ -404,6 +414,12 @@ $grey-white: #E6E6E6;
     &-sertificate {
       background: $grey-white;
       color: $black-text;
+      border:2px solid $grey-white;
+    }
+    &-sertificate:hover{
+      border:2px solid $grey-white;
+      background:$white;
+      color: $black-text;
     }
   }
 
@@ -448,13 +464,14 @@ $grey-white: #E6E6E6;
     justify-content: space-between;
     position: relative;
 
-    
+
     .hidden {
       padding: 83px 20px 84px 20px;
       max-width: 305px;
       position: absolute;
       top: 0;
       right: 343px;
+      
 
       background-color: $white;
 
@@ -491,15 +508,15 @@ $grey-white: #E6E6E6;
 
     .hidden {
       visibility: hidden;
-      opacity:0;
+      opacity: 0;
     }
 
-    &-item:hover .hidden{
+    &-item:hover .hidden {
       visibility: visible;
-      opacity:1;
+      opacity: 1;
     }
 
-     &-item {
+    &-item {
       max-width: 312px;
       background: $white;
       cursor: pointer;
@@ -613,6 +630,11 @@ $grey-white: #E6E6E6;
     &-write-rewievs {
       color: $black-text;
       background: $grey-white;
+      border:2px solid $grey-white;
+    }
+    &-write-rewievs:hover{
+      background:$white;
+      color:$black-text;
     }
   }
 }

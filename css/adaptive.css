@@ -1,4 +1,7 @@
 @media (max-width: 1350px) {
+    .container{
+        padding: 0 25px;
+    }
     .services-block {
         grid-template-columns: repeat(2, 1fr)
     }
@@ -43,5 +46,15 @@ scroll-snap-align: center;
 @media (max-width: 1150px) {
     .company-img{
         display: none;
+    }
+}
+
+@media (max-width: 1100px) {
+    .menu{
+        display: none;
+    }
+
+    .logo-mobile-menu{
+        display: block;
     }
 }
