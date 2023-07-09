@@ -39,6 +39,7 @@ ul[class] {
 img {
   max-width: 100%;
   display: block;
+  object-fit: cover;
 }
 
 input,
@@ -200,7 +201,7 @@ $grey-white: #E6E6E6;
   width: 290px;
   height: 535px;
   background-color: $black-text;
-  top: 10px;
+  top: -50px;
   right: 0;
 
 .close{
@@ -728,6 +729,7 @@ $grey-white: #E6E6E6;
     display: flex;
     gap: 24px;
     margin-top: 48px;
+    justify-content: space-between;
 
     &-item img:hover,
     &-item img:focus {
@@ -933,3 +935,5 @@ $grey-white: #E6E6E6;
     }
   }
 }
+
+

@@ -8,13 +8,10 @@
     }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1300px) {}
 
- 
-}
-
-@media (max-width: 1200px){
-    .footer-top-description{
+@media (max-width: 1200px) {
+    .footer-top-description {
         display: none;
     }
 }
@@ -25,7 +22,7 @@
         display: none;
     }
 
-    .footer-midle-main{
+    .footer-midle-main {
         display: none;
     }
 }
@@ -40,4 +37,34 @@
         display: block;
     }
 
+}
+
+
+@media (max-width: 480px) {
+
+    .company-button {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .company-button-story{
+        margin-bottom: 16px;
+    }
+
+    .rewievs-button{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .rewievs-button-rewievs{
+        margin-bottom: 16px;
+    }
+
+    .footer-midle {
+        flex-direction: column;
+    }
+
+    .footer-midle-lawyer-block {
+        margin-top: 40px;
+    }
 }
