@@ -1,60 +1,43 @@
 @media (max-width: 1350px) {
-    .container{
+    .container {
         padding: 0 25px;
     }
+
     .services-block {
         grid-template-columns: repeat(2, 1fr)
     }
 }
 
-@media (max-width: 1300px){
+@media (max-width: 1300px) {
 
-    .lawyers-block{
-        display: flex;
-        overflow-x: scroll;
-        scroll-snap-type: x mandatory;
-        &-item{
-            scroll-snap-align: center;
-            scroll-snap-align: start; 
-            flex: 0 0 auto;
-        }
-    }
+ 
+}
 
-    .rewievs-block{
-        display: flex;
-        overflow-x: scroll;
-        scroll-snap-type: x mandatory;
-        &-item{
-scroll-snap-align: center;
-            scroll-snap-align: start; 
-            flex: 0 0 auto;
-        }
-    }
-
-    .materials-block{
-        display: flex;
-        overflow-x: scroll;
-        scroll-snap-type: x mandatory;
-        &-item{
-            scroll-snap-align: center;
-            scroll-snap-align: start; 
-            flex: 0 0 auto;
-        }
+@media (max-width: 1200px){
+    .footer-top-description{
+        display: none;
     }
 }
 
 @media (max-width: 1150px) {
-    .company-img{
+
+    .company-img {
+        display: none;
+    }
+
+    .footer-midle-main{
         display: none;
     }
 }
 
-@media (max-width: 1100px) {
-    .menu{
+@media (max-width: 1120px) {
+
+    .menu {
         display: none;
     }
 
-    .logo-mobile-menu{
+    .logo-mobile-menu {
         display: block;
     }
+
 }
