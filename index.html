@@ -1,17 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lawyer Website</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Nunito+Sans:wght@300;600;700;800;900&family=Roboto:wght@300;400;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/cdn.jsdelivr.net_npm_swiper@10_swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/adaptive.css">
 
@@ -20,26 +15,27 @@
 
 <body>
     <div class="wrapper">
-        <div class="subheader">
-            <div class="container">
-                <div class="subheader-nav">
-                    <div class="subheader-info">
-                        <div class="subheader-info-number">
-                            <img src="image/svg/phone.svg" alt="Phone-svg">
-                            <a href="#">+7 (922) 022-94-82</a>
+        <header class="header">
+            <div class="subheader">
+                <div class="container">
+                    <div class="subheader-nav">
+                        <div class="subheader-info">
+                            <div class="subheader-info-number">
+                                <img src="image/svg/phone.svg" alt="Phone-svg">
+                                <a href="#">+7 (922) 022-94-82</a>
+                            </div>
+                            <div class="subheader-info-email">
+                                <img src="image/svg/mail.svg" alt="Mail-svg">
+                                <a href="#">janis62@yahoo.com</a>
+                            </div>
                         </div>
-                        <div class="subheader-info-email">
-                            <img src="image/svg/mail.svg" alt="Mail-svg">
-                            <a href="#">janis62@yahoo.com</a>
-                        </div>
+                        <a class="subheader-call" href="#">Заказать звонок</a>
                     </div>
-                    <a class="subheader-call" href="#">Заказать звонок</a>
                 </div>
             </div>
-        </div>
-        </header>
 
-        <header class="header">
+
+
             <div class="container">
                 <div class="nav">
                     <div class="header-title">
@@ -49,54 +45,48 @@
                     <div class="logo-mobile-menu">
                         <img src="image/svg/menu_burger.svg" alt="burger menu">
                     </div>
-                    <div class="menu">
+                    <nav class="menu">
                         <ul class="menu-list">
-                            <li class="menu-item"><a href="#" class="menu-item-link">Услуги</a></li>
+                            <li class="menu-item"><a href="#services" class="menu-item-link">Услуги</a></li>
                             <li class="menu-item"><a href="#" class="menu-item-link">О компании</a></li>
                             <li class="menu-item"><a href="#" class="menu-item-link">Наши юристы</a></li>
-                            <li class="menu-item"><a href="#" class="menu-item-link">Отзывы</a></li>
-                            <li class="menu-item"><a href="#" class="menu-item-link">Отзывы</a></li>
+                            <li class="menu-item"><a href="#rewievs" class="menu-item-link">Отзывы</a></li>
                             <li class="menu-item"><a href="#" class="menu-item-link">Новости</a></li>
                             <li class="menu-item"><a href="#" class="menu-item-link">Контакты</a></li>
                         </ul>
-                    </div>
-                    <div class="menu-burger">
+                    </nav>
+                    <button class="menu-burger">
                         <div class="close">
-                            <img src="image/svg/close_icon.svg" alt="close icon">
+                            <img src="image/svg/close_icon.svg" alt="закрыть меню">
                         </div>
-                        <ul class="menu-burger-list">
-                            <li class="menu-burger-item"><a href="#" class="menu-burger-item-link">Услуги</a></li>
-                            <li class="menu-burger-item"><a href="#" class="menu-burger-item-link">О компании</a></li>
-                            <li class="menu-burger-item"><a href="#" class="menu-burger-item-link">Наши юристы</a></li>
-                            <li class="menu-burger-item"><a href="#" class="menu-burger-item-link">Отзывы</a></li>
-                            <li class="menu-burger-item"><a href="#" class="menu-burger-item-link">Отзывы</a></li>
-                            <li class="menu-burger-item"><a href="#" class="menu-burger-item-link">Новости</a></li>
-                            <li class="menu-burger-item"><a href="#" class="menu-burger-item-link">Контакты</a></li>
-                        </ul>
-                    </div>
+
+                    </button>
 
                 </div>
             </div>
         </header>
 
-        <div class="range">
-            <div class="container">
-                <h2 class="range-subtitle">Оказываем весь комплекс</h2>
-                <h1 class="range-title">Юридических услуг</h1>
-                <p class="range-description">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает
-                    сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное
-                    заполнение.</p>
-                <button class="btn range-btn">Наши услуги</button>
-                <div class="slider-bulet">
-                    <div><img src="image/svg/slider-bulet-one.svg" alt="">Slider bulet</div>
-                    <div><img src="image/svg/slider-bulet-two.svg" alt="">Slider bulet</div>
-                </div>
-            </div>
-        </div>
+       
 
         <main class="main">
 
-            <div class="services">
+            <div class="range">
+                <div class="container">
+                    <h2 class="range-subtitle">Оказываем весь комплекс</h2>
+                    <h1 class="range-title">Юридических услуг</h1>
+                    <p class="range-description">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает
+                        сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное
+                        заполнение.</p>
+                    <button class="btn range-btn">Наши услуги</button>
+                    <div class="slider-bulet">
+                        <div><img src="image/svg/slider-bulet-one.svg" alt="">Slider bulet</div>
+                        <div><img src="image/svg/slider-bulet-two.svg" alt="">Slider bulet</div>
+                    </div>
+                </div>
+            </div>
+    
+
+            <div class="services" id="services">
                 <div class="container">
                     <h2 class="services-title">Наши услуги</h2>
                     <div class="border services-border"></div>
@@ -325,7 +315,7 @@
                 </div>
             </div>
 
-            <div class="rewievs">
+            <div class="rewievs" id="rewievs">
                 <div class="container">
 
                     <div class="location">
@@ -366,7 +356,7 @@
                                     </div>
                                 </div>
 
-                                  <div class="swiper-slide">
+                                <div class="swiper-slide">
                                     <div class="rewievs-block-item">
                                         <div class="rewievs-block-item-flex">
                                             <div class="rewievs-block-item-flex-block">
@@ -575,7 +565,7 @@
     </div>
 
 
-    <script src="scripts/cdn.jsdelivr.net_npm_swiper@10_swiper-bundle.min.js"></script>
+    <script src="scripts/swiper-bundle.min.js"></script>
     <script src="scripts/script.js"></script>
 
 </body>
